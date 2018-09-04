@@ -1,0 +1,408 @@
+
+
+html {
+       
+}
+
+p {
+	margin-top: 10px;
+	
+}
+
+a:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:visited {
+	text-decoration: none;
+	border-bottom: 1px dotted #369;
+	color: #000000;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	border-bottom: 1px solid #036;
+	color: #000000;
+}
+
+img {
+	border: 0;
+}
+
+#bodyh {
+	font-family: "trebuchet ms", verdana, sans-serif; 
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #333;
+	background: ##f6f6f6;
+	margin: 0 0 0 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+	
+}
+
+#container {
+	position: fixed;
+	top: 85px;
+	left: 0px;
+	background: #ffffff;
+	
+	text-align: left;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	
+}
+
+#menu {
+	font-family: "trebuchet ms", verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	position: fixed;
+	height: 23px;
+	top: 60px;
+	left: 0px;
+	width: 100%;
+	padding: 7px;
+	color: #000000;
+	background-color: #eee;
+	text-align:center;
+}
+
+#menu1{
+	font-family: "trebuchet ms", verdana, sans-serif;
+	font-size: 19px;
+	/* font-weight: bold; */
+	margin: 30px 0px 250px 560px;
+	text-align:left;
+	color: #444;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	line-height: 1.5em;
+}
+
+#header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 60px;
+	width: 100%;
+	background: #999;
+	padding-top: 8px;
+	text-align: center;
+}
+
+#header h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	color: #FFFFFF;
+}
+
+#main {
+	margin: 15px 15px 15px 240px;
+	padding: 15px 15px 15px 15px;
+	background: #FFFFFF;
+}
+
+#bar {
+	float: center;
+	width: 200px;
+	background: #eee;
+	z-index: 1;              
+	padding: 10px;
+	margin-right: 30px;
+	height: 100%;
+	position: fixed;
+	
+}
+
+#bar h1 {
+	font-size: 14px;
+	letter-spacing: 0.3em;
+	font-weight: bolder;
+}
+#bar h2 {
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+}
+
+#manage_device{
+    object.style.overflow="scroll"
+	position: fixed;
+	margin-top: 110px;
+	margin-bottom: 30px;
+	margin-left: 150px;
+	text-align: left;
+	
+	
+	background: #FFFFFF;    
+	
+	width: 80%;
+	height: 70%;
+	
+}
+
+#innertable{
+	position: center;
+	margin-left: -200px;
+	width: 80%;
+	
+}
+
+#head{
+	text-align: center;
+	margin-top: 110px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	color: #444;
+	font-size: 23px;
+}
+
+#head1{
+	position:center;
+	text-align:center;
+	margin: 90px 0px 10px -110px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	color: #444;
+	font-size: 23px;
+}
+
+#head17{
+	text-align: center;
+	margin-top: 110px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	color: #444;
+	font-size: 23px;
+}
+
+#head117{
+	text-align: center;
+	margin: 0px 0px -10px 200px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	color: #444;
+	font-size: 23px;
+}
+
+#line{
+	width: 90%;
+	color: 555;
+	margin-left: 0px;
+	height: 2px;
+	background: #999;
+}
+
+#table{
+	margin-top: 100px;
+	margin-left: 200px;
+	margin-right: 200px;
+	float: right;
+	width: 100%;
+
+}
+
+textarea{
+	display: block; 
+	width: 100%; 
+	height: 125%;
+	text-align: left;
+	vertical-align: auto;
+	
+}
+
+fieldset {
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 0.35em;
+	padding-bottom: 0.625em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	border: 2px groove (internal value);
+} 
+
+table, th, td {
+	border: 0px solid black;
+	border-collapse: collapse;
+	
+}
+
+th, td.first {
+	padding: 5px;
+	width: 10%;
+	text-align: right;
+}
+
+th, td.second {
+	padding: 5px;
+	width: 10%;
+	text-align: left;
+	
+}
+
+th, td.third {
+	padding: 5px;
+	width: 10%;
+	text-align: left;
+	clear: both;
+}
+
+#ptable{
+	margin-left: 50px;
+	
+}
+
+#bottom_line11{
+	margin-top: 70px;
+}
+
+/*--------------------------------- */
+
+body{
+	background-color: #f6f6f6;
+	
+	margin: 5px 5px 5px 100px;
+	padding: 5px;
+	font-family: sans-serif, arial, helvetica;
+	font-size: 12pt;
+	position: center;
+	
+	font-family: "trebuchet ms", verdana, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	
+	
+	
+	
+	text-align: center;
+	width: 80%;
+	
+}
+
+
+h1{
+	font-family: sans-serif, arial, helvetica;
+	font-size: 45pt;
+	margin: 20px 5px 5px 5px;
+	font-weight: bold;
+	-webkit-text-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	-moz-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	color: #444; 
+}
+
+.title1{ 
+	color: #666;
+}
+
+
+.navbar{
+	width: 905px;
+	height: 32px;
+	margin-top: 12px;
+	border-radius: 8px;
+
+}
+
+.form{
+	width: 200px;
+	height: 30px;
+	margin-top: 10px;
+	border-radius: 70px;
+	margin: 200px 400px 300px 100px;
+	
+}
+
+.pass{
+	margin: 10px 0px  30px  0px;
+	margin-left: 37px; 
+}
+
+#login{
+	text-align: center;
+	margin-top: 70px; 
+}
+
+#note{
+	margin-left: 400px;
+}
+
+
+/* #head{
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	color: #444; 
+} */
+
+
+/*-----new design pattern----- */
+
+#form{
+	width: 100%;
+	height: 30px;
+	margin-top: 10px;
+	border-radius: 70px;
+	margin: 10px 0px 300px 150px;
+	
+} 
+
+#logout{
+	font-family: sans-serif, arial, helvetica;
+	font-size: 20pt;
+	margin: 200px 0px 50px 0px;
+	font-weight: bold;
+	-webkit-text-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	-moz-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	color: #444; 
+}
+
+#admin{
+	font-family: sans-serif, arial, helvetica;
+	font-size: 12pt;
+	margin: 20px 5px 5px 5px;
+	font-weight: bold;
+	-webkit-text-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	-moz-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	color: #444; 
+}
+
+#homepage{
+	font-family: sans-serif, arial, helvetica;
+	font-size: 12pt;
+	margin: 20px 5px 5px 5px;
+	font-weight: bold;
+	-webkit-text-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	-moz-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	color: #444; 
+}
+
+#reset{
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	color: 777;
+	font-family: sans-serif, arial, helvetica;
+	font-size: 12pt;
+	margin: 10px 10px 0px -100px;
+}
+
+#add{
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	color: 777;
+	font-family: sans-serif, arial, helvetica;
+	font-size: 12pt;
+}
+
+#delete{
+	width: 150px;
+	height: 27px;
+	border-radius: 10px;
+	color: 777;
+	font-family: sans-serif, arial, helvetica;
+	font-size: 12pt;
+}
